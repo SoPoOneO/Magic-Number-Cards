@@ -16,7 +16,7 @@ for x in range(1, high):
     for i in range( len(converted) ):
         dig = converted[i]
         if dig != "0":
-            card_sets[i][int(dig)-1].append(converted + " => " + str(x))
+            card_sets[i][int(dig)-1].append(x)
 
 letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 letter_index = 0
